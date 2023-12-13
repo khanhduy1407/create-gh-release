@@ -1,6 +1,6 @@
 # create-gh-release
 
-Example:
+Usage:
 
 ```yaml
 on:
