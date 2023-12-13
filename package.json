@@ -1,0 +1,19 @@
+{
+  "name": "create-gh-release",
+  "version": "1.0.0",
+  "description": "GitHub action for auto creating a release on tag push",
+  "main": "index.js",
+  "author": "NKDuy",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.1"
+  }
+}
