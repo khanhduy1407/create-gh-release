@@ -7,13 +7,13 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && ncc build index.js"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && ncc build index.js"
   },
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^2.1.1"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.22.1"
+    "@vercel/ncc": "^0.38.1"
   }
 }
